@@ -67,11 +67,14 @@ var orm = {
 //   },
 
   insertOne: function(addcol, cb) {
-    var s = "INSERT INTO " + tableName + " (burger_name) VALUES (??)";
+    var s = "INSERT INTO " + tableName + " (burger_name) VALUES (?)";
     // addcol.complete = addcol.complete || 0;
+    // console.log("query" + s);
     connection.query(s, [addcol], function(err, result) {
-
-      cb(result);
+        // console.log("query" + s);
+        if (err) throw err;
+        // console.log("Insert result" + result);
+        cb(result);
 
     });
   },
