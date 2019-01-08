@@ -8,7 +8,7 @@
 
 Technologies Used:
 
-The following MVC model .Below technologies and tools were used
+Used `MVC framework` .Below technologies and tools were used
 
 - JavaScript
 - node.js:
