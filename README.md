@@ -4,7 +4,7 @@
 
 - Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
-- Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+- Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the taken/eaten section down below.
 
 Technologies Used:
 
